@@ -1,0 +1,65 @@
+.imageSlider__Carousel {
+  margin-top: 20px;
+}
+
+.imageSlider__Carousel > button {
+  opacity: 0;
+  height: 100%;
+  width: 5vw;
+  z-index: 1;
+}
+
+.imageSlider__Carousel > button:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease 0s;
+}
+
+.imageSlider__Carousel ul li button {
+}
+
+.imageSlider__Carousel ul li button::before {
+  font-size: 10px;
+  color: rgb(150, 158, 171);
+}
+
+.imageSlider__Carousel li.slick-active button::before {
+  color: white;
+}
+
+.imageSlider__Carousel .slick-list {
+  overflow: initial;
+}
+
+.imageSlider__Carousel .slick-prev {
+  left: -75px;
+}
+.imageSlider__Carousel .slick-next {
+  right: -75px;
+}
+
+.imageSlider__wrap {
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.imageSlider__wrap a {
+  border-radius: 4px;
+  /* box-shadow: rgb(0 0 0 / 69%) 0 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0 16px 10px -10px; */
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 4px;
+}
+
+.imageSlider__wrap a img {
+  width: 100%;
+  height: 100%;
+}
+
+.imageSlider__wrap:hover {
+  padding: 0;
+  border: 4px solid rgba(249, 249, 249, 0.8);
+  transition-duration: 300ms;
+}

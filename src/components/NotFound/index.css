@@ -1,0 +1,50 @@
+.not__cont {
+  display: flex;
+  padding: 50px;
+  height: calc(100vh - 70px);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.not__cont img {
+  height: 330px;
+  width: 330px;
+  margin-top: 70px;
+}
+
+.not__cont h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.not__cont p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.not__cont button {
+  text-decoration: none;
+  font-size: 14px;
+  color: #1f80e0;
+  padding: 17px 77px;
+  border: 1px solid #1f80e0;
+  border-radius: 2px;
+  display: block;
+  margin: 20px auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.not__cont button:hover {
+  background-color: rgba(249, 249, 249, 0.5);
+  color: rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0.3);
+}
